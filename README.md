@@ -8,6 +8,7 @@ Either follow the link through the extension icon, or go to bbc.com and find a C
 
 ## Notes & Limitations
 
+- Detects page topic and only injects the html part of the extension if the topic is supported.
 - Runs off of a Firebase database, but only loads for articles relating to Coronavirus right now.
 
 ## Next Steps
