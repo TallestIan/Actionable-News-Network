@@ -23,12 +23,10 @@ firebase.initializeApp(fbConfig);
 const db = firebase.firestore();
 
 
-//Grabbing General Data from Firestore ----------------------------------------------------
-
-
-//Grabbing Specific Data from Firestore ----------------------------------------------------
+//Grabbing Data from Firestore ----------------------------------------------------
 let fillData = '';
 
+//Note: Ideally this would be based on searching the database for a match for topics, which would need a tool like this as Firebase doesn't support search natively. https://firebase.google.com/docs/firestore/solutions/search
 db.collection("topics").doc("29IhYhNYI7ZUQhD8TjDG").get().then((doc) => {
     console.log(doc.data());
     fillData = doc.data();

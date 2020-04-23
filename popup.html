@@ -1,90 +1,21 @@
-<!--
- This page is shown when the extension button is clicked, because the
- "browser_action" field in manifest.json contains the "default_popup" key with
- value "popup.html".
- -->
 <html>
 <head>
-    <title>Stranger Danger</title>
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-    -->
-    <!-- <script src="https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script> -->
-
-
-
-    <meta http-equiv="Content-Security-Policy" content="default-src *; img-src www.google-analytics.com stats.g.doubleclick.net https://stats.g.doubleclick.net https://stats.g.doubleclick.net https://www.google.com/ads ; style-src 'self' 'unsafe-inline'; connect-src www.google-analytics.com stats.g.doubleclick.net https://stats.g.doubleclick.net https://stats.g.doubleclick.net https://www.google.com/ads; script-src *  https://stats.g.doubleclick.net 'unsafe-inline' 'unsafe-eval'" >
+    <title>Actionable News Network</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-
-<!--    <script type="text/javascript" src="js/oauth.min.js"></script>-->
-
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/popup.css">
-<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
-
-    <!-- Optional theme -->
-<!--    <link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
-
-
-
-
 </head>
 
 <body>
 <div class="panel panel-default" id="popupPanel">
-    <!--<div class="panel-heading">-->
-
-    <!--</div>-->
     <div class="panel-body" style="margin-left: 15px; margin-right:15px;">
-
         <div><b>Actionable News Network</b>
-            <!-- <img id='icon' style="float:center;" src="img/icon.png"> -->
         </div>
-
         Making News Less Scary
         <br>
-
-        <!--Improve our Code! <a href="https://github.com/trusttri/Twitter-Shield-With-Perspective" target="_blank">Github</a>-->
     </div>
-
-
 </div>
-
-<div style="" id="contentPanel">
-    <div style="padding-left:15px; padding-right:15px; margin-bottom:15px; margin-left: 15px; margin-right: 15px;" id="statePanel">
-        Working to put control of the news back in people's hands.
-        <br>
-    </div>
-
-    <!-- <form onsubmit="setThreshold()" style="margin:15px"> -->
-<!--    <div style="margin:15px" id="buttonPanel">-->
-<!--        &lt;!&ndash; Threshold <input type="number" step="0.1" min="0" max="1" name ="threshold" value ="0" id="thresholdId"> &ndash;&gt;-->
-<!--        &lt;!&ndash;Threshold <input name ="threshold" value ="0" id="thresholdId"/>&ndash;&gt;-->
-<!--        &lt;!&ndash; <input type="text" value="" name="accountName" id="accountHandle" autofocus> &ndash;&gt;-->
-
-<!--        <div id ="submitId">Log in with Twitter account</div>-->
-<!--    </div>-->
-
-
-</div>
-
-
-
 
 </body>
 <script type="text/javascript" src="js/popup.js"></script>
-
-
-<!--   <script>
-    function setThreshold(){
-      console.log("On submit")
-      console.log(document.getElementById("thresholdId").value);
-      localStorage.setItem('threshold', document.getElementById("thresholdId").value);
-    }
-  </script> -->
 </html>
