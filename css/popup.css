@@ -1,3 +1,41 @@
+/* -------------------------------- Browser Action Code --------------------------------*/
+.baBody {
+    margin: 0;
+}
+
+#ANNlogo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.baContainer {
+    width: 200px;
+    background: #155263;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.baContainer a {
+    color: white;
+    font-weight: bold;
+    background-color: #ff6f3c;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.baContainer a:active {
+    color: #fff;
+}
+
+.baHeader {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 /* -------------------------------- Container Code --------------------------------*/
 
 .frameANN {
@@ -148,4 +186,18 @@
 .frameANN .padding {
     height: 10px;
     padding: 10px;
+}
+.annBox {
+    text-align: center;
+}
+
+.annBox h4 {
+    text-align: left;
+}
+
+#AnnLogoMain {
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
