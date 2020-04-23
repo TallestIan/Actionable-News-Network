@@ -1,5 +1,5 @@
 # Actionable-News-Network
-Built for SI660 Project
+Built for a W20 SI660 Project
 
 ## Instructions
 Load as an unpacked Chrome extension to use.
