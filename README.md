@@ -16,5 +16,6 @@ Either follow the link through the extension icon, or go to bbc.com and find a C
 - Add a search mechanism for Firebase
 - Remove hard coding for Coronavirus info and have the results based off current topics, and search Firebase for a match
 - Create a website with more info for topics past the limited info the extension can provide (so links can go to the website with lots of additional info)
+- Based data off of webpages, instead of static info from Firebase
 
 Created by Ian Geiman
